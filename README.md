@@ -1,7 +1,7 @@
 LZY --VERSION 0.1 
 BY path0s
 
-*PRINCIAPLE OPERATION*
+PRINCIAPLE OPERATION
 The script will contain a main folder named with the date on which the script will be executed (format date: yyyy-mm-dd) and 
 will contain n folders how many are the formats of the only files inside the main folder and 
 will transfer the corresponding files to the corresponding format folders.
@@ -10,7 +10,7 @@ In conclusion, for use this script, you have to run it in the terminal plus the 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-*USAGE ON THE VARIOUS OPERATING SYSTEMS*
+USAGE ON THE VARIOUS OPERATING SYSTEMS
 Linux: 
       - Open the terminal and go where you put the script. run it adding as argument the "path of the folder" which contains files.
         Don't you remember how to catch the path of your folder on Linux?
@@ -28,7 +28,7 @@ Windows:
                 ./lzy.sh C:\\Users\\path0s\\Desktop\\Folder
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
    
- *WHY COULD IT BE USEFUL?*
+WHY COULD IT BE USEFUL?
 The script helps to tidy up folders containing many files. Often we are lazy (lzy) and we do not want to tidy up our folders. Just think about the "Download" folder in our pc: how many old and new files can it contain? how many useful files do we download in a day? 
 
 This script helps re-sort folders by organizing its interior in a better and clear way
