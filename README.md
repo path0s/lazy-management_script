@@ -1,6 +1,6 @@
 <h1> LZY --VERSION 0.1 </h1>
 
-<h5> PRINCIAPLE OPERATION </h5>
+<h5> DESCRIPTION </h5>
 The script will contain a main folder named with the date on which the script will be executed (format date: yyyy-mm-dd) and 
 will contain n folders how many are the formats of the only files inside the main folder and 
 will transfer the corresponding files to the corresponding format folders. <br>
