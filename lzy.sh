@@ -52,10 +52,10 @@ if [ -z "$(find "$1" -maxdepth 1 -type f)" ]; then
   echo "THE SCRIPT WILL NOT START!"
   exit 1
 fi
-# ***** END CHECKS PART *****
+# ----- END CHECKS PART -----
 
 
-# ***** MAIN PART *****
+# ----- MAIN PART -----
 echo "$1 HAS FILES INSIDE..."
 echo "THE SCRIPT IS RUNNING..."
 echo " "
