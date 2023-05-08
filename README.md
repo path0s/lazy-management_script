@@ -39,6 +39,6 @@ This script helps re-sort folders by organizing its interior in a better and cle
 	
 <hr>
 Thank you for using this script. Your sanity will be grateful :) <br>
-bY path0s
+by path0s
  
 
