@@ -56,7 +56,7 @@ fi
 
 
 # ***** MAIN PART *****
-echo "$1 HAS FILE INSIDE..."
+echo "$1 HAS FILES INSIDE..."
 echo "THE SCRIPT IS RUNNING..."
 echo " "
 sleep 2
