@@ -16,7 +16,7 @@ Linux:
         Example:
                 ./lzy.sh /home/linux/Desktop/Folder
 Windows:
-      - Download Git/Git Bash from officiale website: https://git-scm.com/downloads
+      - Download Git/Git Bash from officiale website: "https://git-scm.com/downloads"
         (you can download also the portable version)
       - Open the terminal and go where you put the script. run it adding as argument the "path of the folder" which contains files.
         Don't you remember how to catch the path of your folder on Windows? 
