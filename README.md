@@ -8,8 +8,6 @@ will transfer the corresponding files to the corresponding format folders.
 Finally it generates a report file (called report.txt) that illustrates the information of the script and the listing of the newly created folders.
 In conclusion, for use this script, you have to run it in the terminal plus the path of the folder.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 USAGE ON THE VARIOUS OPERATING SYSTEMS
 Linux: 
       - Open the terminal and go where you put the script. run it adding as argument the "path of the folder" which contains files.
@@ -26,8 +24,7 @@ Windows:
             (remember to use the double "\\")
         Example:
                 ./lzy.sh C:\\Users\\path0s\\Desktop\\Folder
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   
+              
 WHY COULD IT BE USEFUL?
 The script helps to tidy up folders containing many files. Often we are lazy (lzy) and we do not want to tidy up our folders. Just think about the "Download" folder in our pc: how many old and new files can it contain? how many useful files do we download in a day? 
 
