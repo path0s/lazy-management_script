@@ -1,37 +1,45 @@
-LZY --VERSION 0.1 
+<h1> LZY --VERSION 0.1 </h1> <br> 
 BY path0s
 
-PRINCIAPLE OPERATION
+<h5> PRINCIAPLE OPERATION </h5>
 The script will contain a main folder named with the date on which the script will be executed (format date: yyyy-mm-dd) and 
 will contain n folders how many are the formats of the only files inside the main folder and 
-will transfer the corresponding files to the corresponding format folders.
-Finally it generates a report file (called report.txt) that illustrates the information of the script and the listing of the newly created folders.
-In conclusion, for use this script, you have to run it in the terminal plus the path of the folder.
+will transfer the corresponding files to the corresponding format folders. <br>
+Finally it generates a report file (called report.txt) that illustrates the information of the script and the listing of the newly created folders. <br>
 
-USAGE ON THE VARIOUS OPERATING SYSTEMS
-Linux: 
-      - Open the terminal and go where you put the script. run it adding as argument the "path of the folder" which contains files.
-        Don't you remember how to catch the path of your folder on Linux?
-          - Open the terminal and digit the 'pwd command'
-        Example:
+<hr>
+
+<h5> USAGE ON THE VARIOUS OPERATING SYSTEMS </h5>
+Linux: <br>
+<ul>
+	<li> Open the terminal and go where you put the script. run it adding as argument the "path of the folder" which contains files. <br>
+             Don't you remember how to catch the path of your folder on Linux? <br>
+             Open the terminal and digit the 'pwd' command <br> <br>
+	     Example: <br>
                 ./lzy.sh /home/linux/Desktop/Folder
-Windows:
-      - Download Git/Git Bash from officiale website: "https://git-scm.com/downloads"
-        (you can download also the portable version)
-      - Open the terminal and go where you put the script. run it adding as argument the "path of the folder" which contains files.
-        Don't you remember how to catch the path of your folder on Windows? 
-          - Right-click on a file within the folder-->properties-->path
-            (remember to use the double "\\")
-        Example:
-                ./lzy.sh C:\\Users\\path0s\\Desktop\\Folder
-              
-WHY COULD IT BE USEFUL?
-The script helps to tidy up folders containing many files. Often we are lazy (lzy) and we do not want to tidy up our folders. Just think about the "Download" folder in our pc: how many old and new files can it contain? how many useful files do we download in a day? 
+	</li>
+</ul>
+Windows: <br>
+<ul>
+	<li> Download Git/Git Bash from officiale website: https://git-scm.com/downloads (you can download also the portable version) <br>
+	</li>
+	<li> Open the terminal and go where you put the script. run it adding as argument the "path of the folder" which contains files. <br>
+             Don't you remember how to catch the path of your folder on Windows? <br>
+	     Right-click on a file within the folder-->properties-->path <br>
+	      Example: <br>
+		./lzy.sh C:\\Users\\path0s\\Desktop\\Folder
+	</li>
+</ul>
 
-This script helps re-sort folders by organizing its interior in a better and clear way
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Thank you for using this script. Your sanity will be grateful :)
+<hr>
+	
+<h5> WHY COULD IT BE USEFUL? </h5>
+The script helps to tidy up folders containing many files. Often we are lazy (lzy) and we do not want to tidy up our folders. <br>
+Just think about the "Download" folder in our pc: how many old and new files can it contain? how many useful files do we download in a day? <br>
+This script helps re-sort folders by organizing its interior in a better and clear way <br>
+	
+<hr>
+Thank you for using this script. Your sanity will be grateful :) <br>
 BY path0s
  
 
