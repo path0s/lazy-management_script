@@ -24,7 +24,7 @@ Windows: <br>
 	</li>
 	<li> Open the terminal and go where you put the script. run it adding as argument the "path of the folder" which contains files. <br>
              Don't you remember how to catch the path of your folder on Windows? <br>
-	     Right-click on a file within the folder-->properties-->path <br>
+	     Right-click on a file within the folder-->properties-->path <br> <br> 
 	      Example: <br>
 		./lzy.sh C:\\Users\\path0s\\Desktop\\Folder
 	</li>
