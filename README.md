@@ -1,5 +1,4 @@
-<h1> LZY --VERSION 0.1 </h1> <br> 
-BY path0s
+<h1> LZY --VERSION 0.1 </h1>
 
 <h5> PRINCIAPLE OPERATION </h5>
 The script will contain a main folder named with the date on which the script will be executed (format date: yyyy-mm-dd) and 
@@ -40,6 +39,6 @@ This script helps re-sort folders by organizing its interior in a better and cle
 	
 <hr>
 Thank you for using this script. Your sanity will be grateful :) <br>
-BY path0s
+bY path0s
  
 
