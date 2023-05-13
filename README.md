@@ -3,9 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
 > The script will contain a main folder named with the date on which the script will be executed (format date: yyyy-mm-dd) and will contain n folders how many are the formats of the only files inside the main folder and will transfer the corresponding files to the corresponding format folders <br>
-Finally it generates a report file (called report.txt) that illustrates the information of the script and the listing of the newly created folders
-
-## Why should it be useful?
+Finally it generates a report file (called report.txt) that illustrates the information of the script and the listing of the newly created folders <br> <br>
 The script helps to tidy up folders containing many files. Often we are lazy (lzy) and we don't want to tidy up our folders. Just think of the "Downloads" folder <br>
 This script helps re-sort folders by organizing its interior in a better and clear way
 
