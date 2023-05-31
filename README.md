@@ -2,10 +2,10 @@
 ![Version](https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-> The script will contain a main folder named with the date on which the script will be executed (format date: yyyy-mm-dd) and will contain n folders how many are the formats of the only files inside the main folder and will transfer the corresponding files to the corresponding format folders <br>
-Finally it generates a report file (called report.txt) that illustrates the information of the script and the listing of the newly created folders <br> <br>
-The script helps to tidy up folders containing many files. Often we are lazy (lzy) and we don't want to tidy up our folders. Just think of the "Downloads" folder <br>
-This script helps re-sort folders by organizing its interior in a better and clear way
+> The script will consist of a main folder named with the date on which the script will be executed (date format: yyyy-mm-dd). It will contain n folders, corresponding to the formats of the only files inside the main folder, and it will transfer the corresponding files to their respective format folders. <br>
+Finally, it will generate a report file called "report.txt" that provides information about the script and lists the newly created folders. <br> 
+The script assists in organizing folders that contain numerous files. Often, we tend to be lazy and neglect organizing our folders, such as the "Downloads" folder. <br>
+This script helps to reorganize folders by sorting their contents in a better and clearer manner.
 
 ## Usage
 The script needs the path of directory as argument
