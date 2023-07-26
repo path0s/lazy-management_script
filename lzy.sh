@@ -3,32 +3,17 @@
 # LZY --VERSION 0.1 
 # BY path0s
 # ------------------------------------------------------------------------------------------------------------------------------------------------
-# The script will contain a main folder named with the date on which the script will be executed (format date: yyyy-mm-dd) and 
-# will contain n folders how many are the formats of the only files inside the main folder and 
-# will transfer the corresponding files to the corresponding format folders
 
-# Finally it generates a report file (called report.txt) that illustrates the information of the script and the listing of the newly created folders
-# ------------------------------------------------------------------------------------------------------------------------------------------------
-
-# ----- FUNCTIONS PART -----
 show_credentials()
 {
   echo "***** LZY --version 0.1 (by path0s) *****"
   sleep 2
-}
-# ----- END FUNCTIONS PART ----- 
+} 
 
-# clear the display
-clear
+clear # clear the display
+show_credentials # show function 
+echo " " # new line
 
-# ----- CREDENTIALS PART -----
-show_credentials 
-
-echo " "
-# ----- END CREDENTIALS PART -----
-
-
-# ----- CHECKS PART -----
 # check if the number of argument is only 1
 if [ $# -ne 1 ]; then
   echo "ERROR!"
@@ -52,10 +37,8 @@ if [ -z "$(find "$1" -maxdepth 1 -type f)" ]; then
   echo "THE SCRIPT WILL NOT START!"
   exit 1
 fi
-# ----- END CHECKS PART -----
 
-
-# ----- MAIN PART -----
+# ----- MAIN -----
 echo "$1 HAS FILES INSIDE..."
 echo "THE SCRIPT IS RUNNING..."
 echo " "
@@ -91,10 +74,10 @@ done
 echo " "
 
 echo "ALL FILES MOVE TO: $dirDate!"
-# ----- END MAIN PART -----
+# ----- END MAIN -----
 
 
-# ----- REPORT PART -----
+# ----- REPORT -----
 echo "Script executed at $(date)" > "$dirDate/report.txt"
 echo "Number of directories created: $(ls -l "$dirDate" | grep "^d" | wc -l)" >> "$dirDate/report.txt"
 echo "Number of files moved: $(find "$dirDate" -type f | wc -l)" >> "$dirDate/report.txt"
@@ -104,7 +87,7 @@ ls -R "$dirDate" >> "$dirDate/report.txt"
 echo "REPORT GENERATED AT $dirDate/report.txt"
 
 echo " "
-# ----- END REPORT PART -----
+# ----- END REPORT -----
 
 echo "THE SCRIPT HAS JUST FINISHED!"
 show_credentials
