@@ -1,5 +1,5 @@
 # LZY
-![Version](https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
 > The script consists of a main folder named with the current date (date format: yyyy-mm-dd). <br>
