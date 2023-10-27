@@ -6,7 +6,7 @@
 
 show_credentials()
 {
-  echo "***** LZY --version 0.1 (by path0s) *****"
+  echo "***** LZY --version 1.0 (by path0s) *****"
   sleep 2
 } 
 
