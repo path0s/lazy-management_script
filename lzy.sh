@@ -10,28 +10,24 @@ show_credentials()
   sleep 2
 } 
 
-clear # clear the display
-show_credentials # show function 
-echo " " # new line
+clears
+show_credentials 
+echo " "
 
-# check if the number of argument is only 1
 if [ $# -ne 1 ]; then
   echo "ERROR!"
   echo "USAGE: ./lzy.sh </dir>"
   exit 1
 fi
 
-# check if the only arguments is a directory
 if [ ! -d "$1" ]; then
   echo "ERROR!"
   echo "$1 DOESN'T EXIST OR IT'S NOT A DIR!"
   exit 1
 fi
 
-# going into the directory passed as argument
 cd "$1"
 
-# check if dir is empty
 if [ -z "$(find "$1" -maxdepth 1 -type f)" ]; then
   echo "$1 DOESN'T CONTAIN ANY FILES TYPE!"
   echo "THE SCRIPT WILL NOT START!"
